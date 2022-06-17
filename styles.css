@@ -1,0 +1,50 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family: 'Poppins', sans-serif;
+  }
+  .container{
+    width: 60%;
+    max-width: 400px;
+    margin-inline: auto;
+    text-align: center;
+  }	
+  img#profilepic{
+    width: 50%;
+    border: 2px solid var(--purple);
+    border-radius: 100%;
+    padding: 5px;
+  }
+  .img-width{
+    width: 24px;
+    height:24px;
+    margin: 2px; 
+  }
+  .svg-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 68px;
+    
+  }
+  .links{
+    font-weight: 600;
+  }
+  h1{
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: inherit; 
+  }
+  h3{
+    text-align: center;
+  }
